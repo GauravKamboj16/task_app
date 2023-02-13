@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+ 
 
 class ImageScreen extends StatelessWidget {
   final image_url;
-    ImageScreen({super.key, this.image_url});
+    const ImageScreen({super.key, this.image_url});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +12,6 @@ class ImageScreen extends StatelessWidget {
         title: Text("Image"),
         backgroundColor: Colors.black,
       ),
-     // D:\task_app\task_app\assets\images\placeholder.jpg
       body: SafeArea(
         child: Column(
           children: [
